@@ -19,3 +19,50 @@
     text-align: center;
     line-height: 90px;
 }
+.clearfix{
+    float: none;
+    clear: both;
+}
+#menu ul li{
+    /*display: inline-block;
+*/
+    display: block;
+    float: left;
+    border-right: 2px solid #cccccc;
+}
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444444;
+}
+#menu ul li:hover a{
+    color: white;
+}
+#menu ul li:hover{
+    background-color: rgb(20, 5, 153);
+}
+#contenido{
+    width: 70%;
+    border: 5px solid green;
+   float: left;
+}
+#lateral{
+    float: left;
+    width: 29%;
+    border: 1px solid green;
+}
+#contenido > h1 {
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    padding: 15px;
+    color: brown;
+}
+#contenido .caja{
+    width: 40%;
+    height: 250px;
+    background-color: red;
+    border: 4px solid blue;
+    color: white;
+    margin: 35px;
+    float: left;
+}
