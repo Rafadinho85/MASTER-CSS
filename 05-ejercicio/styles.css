@@ -43,13 +43,15 @@
 }
 #contenido{
     width: 70%;
-    border: 5px solid green;
+  
    float: left;
 }
 #lateral{
     float: left;
     width: 29%;
     border: 1px solid green;
+    height: 500px;
+    text-align: center;
 }
 #contenido > h1 {
     text-align: center;
@@ -65,4 +67,14 @@
     color: white;
     margin: 35px;
     float: left;
+}
+footer{
+    width: 100%;
+    background-color: #cccccc;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    color: #444;
+    border-top: 1px solid red;
+
 }
