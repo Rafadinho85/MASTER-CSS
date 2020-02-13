@@ -50,8 +50,10 @@
     float: left;
     width: 29%;
     border: 1px solid green;
-    height: 500px;
+    min-height: 500px;
+    max-height: 650px;
     text-align: center;
+    overflow-y: scroll;
 }
 #contenido > h1 {
     text-align: center;
